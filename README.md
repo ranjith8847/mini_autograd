@@ -24,11 +24,11 @@ It mirrors the core ideas behind modern deep-learning frameworks: tensor operati
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 📦 mini-autograd  
  ├── autograd.ipynb
  └── README.md  
-\`\`\`
+```
 
 ---
 
@@ -42,22 +42,22 @@ Each number stores:
 - Pointers to children in the computation graph  
 
 ### 2. Building the Graph
-\`\`\`python
+```python
 c = a * b  
 d = c + 3  
 out = d.tanh()  
-\`\`\`
+```
 
 ### 3. Backpropagation
-\`\`\`python
+```python
 out.backward()  
-\`\`\`
+```
 
 ---
 
 ## ✨ Example Usage
 
-\`\`\`python
+```python
 from engine import Value
 
 x = Value(2.0)  
@@ -71,13 +71,13 @@ print(y.data)
 print(x.grad)  
 print(w.grad)  
 print(b.grad)
-\`\`\`
+```
 
 ---
 
 ## 🧪 Example: mini MLP
 
-\`\`\`python
+```python
 from engine import Value  
 import random
 
@@ -121,7 +121,7 @@ for _ in range(50):
             for w in n.w:
                 w.data -= 0.1 * w.grad
             n.b.data -= 0.1 * n.b.grad
-\`\`\`
+```
 
 ---
 
