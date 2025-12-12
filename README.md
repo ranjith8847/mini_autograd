@@ -142,8 +142,4 @@ Add:
 - Graph visualization  
 - GPU kernels  
 
----
 
-## 📄 License
-
-MIT License  
