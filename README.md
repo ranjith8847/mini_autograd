@@ -25,12 +25,8 @@ It mirrors the core ideas behind modern deep-learning frameworks: tensor operati
 ## 📁 Project Structure
 
 \`\`\`
-📦 tiny-autograd  
- ├── engine.py        # Core Value/Tensor class and backprop logic  
- ├── ops.py           # Optional: non-linearities and additional ops  
- ├── tests.py         # Example tests  
- ├── examples/  
- │    └── mlp.py      # Simple MLP training using the autograd engine  
+📦 mini-autograd  
+ ├── autograd.ipynb   # code
  └── README.md  
 \`\`\`
 
@@ -79,7 +75,7 @@ print(b.grad)
 
 ---
 
-## 🧪 Example: Tiny MLP
+## 🧪 Example: mini MLP
 
 \`\`\`python
 from engine import Value  
