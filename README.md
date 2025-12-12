@@ -26,7 +26,7 @@ It mirrors the core ideas behind modern deep-learning frameworks: tensor operati
 
 \`\`\`
 📦 mini-autograd  
- ├── autograd.ipynb   # code
+ ├── autograd.ipynb
  └── README.md  
 \`\`\`
 
